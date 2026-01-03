@@ -21,6 +21,33 @@ const Style = () => {
         color: #8a5cf5ff;
         font-weight: 600;
       }
+
+      // 列表标记颜色自定义（数字和符号）
+      .notion-list-numbered li::marker,
+      .notion-list-disc li::marker {
+        color: #8a5cf585; // 与粗体同色，可以单独修改
+        font-weight: 700;
+      }
+
+      // 链接颜色自定义
+      .notion-link {
+        color: #0660E0 !important; // 与主题色保持一致，可以修改为其他颜色
+        border-bottom-color: #0660E085 !important;
+      }
+
+      .notion-link:hover {
+        color: #0660E0 !important; // hover时颜色稍微深一点
+        border-bottom-color: #0660E0 !important;
+        opacity: 1;
+      }
+
+      // 删除线文字颜色（灰色降低视觉权重）
+      .notion s,
+      .notion del,
+      .notion-strikethrough {
+        color: #9ca3af; // 灰色
+        text-decoration-color: #d1d5db; // 删除线颜色也是灰色
+      }
       
       ::-webkit-scrollbar-thumb {
         background: rgba(60, 60, 67, 0.4);
