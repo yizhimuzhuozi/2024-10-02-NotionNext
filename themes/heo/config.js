@@ -33,7 +33,7 @@ const CONFIG = {
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
-  HERO_RECOMMEND_COVER: 'https://www.notion.so/image/attachment%3A6639a76e-b527-49e0-9a6d-5dc54b940a66%3Agr8uy9wmutyubtyyfley.jpg?table=block&id=2dd187c8-f146-8012-be0c-f6013f1aea1b&spaceId=04005499-8ee6-481b-a3fc-ab95d9d28fdb&width=2000&userId=128df21f-d466-4d28-9a5c-4d493a9072dc&cache=v2', // 英雄区右侧图片
+  HERO_RECOMMEND_COVER: 'https://youke3.picui.cn/s1/2026/01/03/6958dc01ada4d.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
