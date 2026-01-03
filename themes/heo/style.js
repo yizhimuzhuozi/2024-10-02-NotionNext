@@ -55,7 +55,20 @@ const Style = () => {
         text-decoration-color: #d1d5db; // 删除线颜色也是灰色
       }
 
+      // 导航菜单字重加粗
+      // 一级导航菜单项（顶部导航栏）
+      #nav-mobile a,
+      #nav-mobile .cursor-pointer {
+        font-weight: 600; // 600为semi-bold，可选值: 500(medium), 600(semibold), 700(bold), 800(extrabold)
+      }
 
+      // 二级子菜单项
+      #nav-mobile ul li {
+        font-weight: 600; // 与一级菜单保持一致
+      }
+
+
+      
 // 自定义
       ::-webkit-scrollbar-thumb {
         background: rgba(60, 60, 67, 0.4);
