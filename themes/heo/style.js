@@ -68,6 +68,37 @@ const Style = () => {
       }
 
 
+      // 首页文章列表卡片样式
+      // 增加卡片高度（移动端和桌面端）
+      #theme-heo article > div {
+        min-height: 18rem !important; // 移动端最小高度，原来是 h-[23rem]
+      }
+      
+      @media (min-width: 768px) {
+        #theme-heo article > div {
+          min-height: 16rem !important; // 桌面端最小高度，原来是 h-52 (13rem)
+        }
+      }
+
+      // 鼠标悬停时添加淡淡的阴影
+      #theme-heo article > div:hover {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); // 淡淡的阴影
+        transform: translateY(-2px); // 轻微上浮效果
+        transition: all 0.3s ease-in-out;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
       
 // 自定义
       ::-webkit-scrollbar-thumb {
