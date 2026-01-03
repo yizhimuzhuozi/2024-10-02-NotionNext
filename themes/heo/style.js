@@ -15,7 +15,13 @@ const Style = () => {
       #theme-heo #announcement-content .notion {
         color: white;
       }
-
+      // 文章内容粗体颜色自定义
+      .notion b,
+      .notion strong {
+        color: #8a5cf5ff;
+        font-weight: 600;
+      }
+      
       ::-webkit-scrollbar-thumb {
         background: rgba(60, 60, 67, 0.4);
         border-radius: 8px;
