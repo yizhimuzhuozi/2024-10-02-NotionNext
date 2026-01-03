@@ -88,7 +88,26 @@ const Style = () => {
       }
 
 
+      // 文章列表增加上下间距
+      #theme-heo article {
+        margin-bottom: 1.5rem; // 增加文章之间的间距
+      }
 
+      // 修复"随便逛逛"文字与下方内容对齐问题
+      #banners #banner-cover {
+        display: flex;
+        align-items: center; // 垂直居中
+        justify-content: flex-start;
+      }
+
+      // 左下角三个快捷分类按钮样式调整（如果需要）
+      // 确保与上方"此刻"文字区域对齐
+      #bannerGroup {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
 
 
 
