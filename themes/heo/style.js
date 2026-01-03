@@ -109,7 +109,16 @@ const Style = () => {
       }
       
 
+      // 个人资料卡片背景色自定义
+      // 亮色模式下的背景色
+      .bg-\[#4f65f0\] {
+        background-color: #8a5cf5ff !important; // 修改这里的颜色值，如: #6366f1(靛蓝), #8b5cf6(紫色), #ec4899(粉色)
+      }
 
+      // 暗黑模式下的背景色（可选）
+      // .dark .dark\:bg-yellow-600 {
+      //   background-color: #ca8a04 !important; // 暗黑模式下的背景色
+      // }
 
 
 
