@@ -15,6 +15,9 @@ const Style = () => {
       #theme-heo #announcement-content .notion {
         color: white;
       }
+
+// 自定义
+
       // 文章内容粗体颜色自定义
       .notion b,
       .notion strong {
@@ -33,13 +36,16 @@ const Style = () => {
       .notion-link {
         color: #0660E0 !important; // 与主题色保持一致，可以修改为其他颜色
         border-bottom-color: #0660E085 !important;
+        font-weight: 600;
       }
 
       .notion-link:hover {
         color: #0660E0 !important; // hover时颜色稍微深一点
         border-bottom-color: #0660E0 !important;
+        font-weight: 600;
         opacity: 1;
       }
+
 
       // 删除线文字颜色（灰色降低视觉权重）
       .notion s,
@@ -48,7 +54,9 @@ const Style = () => {
         color: #9ca3af; // 灰色
         text-decoration-color: #d1d5db; // 删除线颜色也是灰色
       }
-      
+
+
+// 自定义
       ::-webkit-scrollbar-thumb {
         background: rgba(60, 60, 67, 0.4);
         border-radius: 8px;
